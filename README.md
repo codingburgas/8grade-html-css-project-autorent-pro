@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="media/pictures/logo/AutoRent Pro-black-.png" alt="AutoRent Pro logo" width="450" height="350">
+    <img src="media/pictures/logo/AutoRent Pro-black.png" alt="AutoRent Pro logo" width="450" height="350">
 </p>    
 
 ## AutoRent Pro
