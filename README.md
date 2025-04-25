@@ -19,13 +19,13 @@ The goal of this project is to simulate a real-world car rental platform with a 
 <table>
   <tr>
     <td><img src="media/pictures/used/VisualStudioCodeLogo.png" width="300"/></td>
-    <td><img src="media/pictures/used/htmlLogo.png" width="370"/></td>
+    <td><img src="media/pictures/used/htmlLogo.png" width="300"/></td>
     <td><img src="media/pictures/used/cssLogo.png" width="300"></td>
-    <td><img src="media/pictures/used/GitHubLogo.png" width="320"/></td>
-    <td><img src="media/pictures/used/TeamsLogo.png" width="320"></td>
-    <td><img src="media/pictures/used/WordLogo.png" width="320"/></td>
-    <td><img src="media/pictures/used/PowerPointLogo.png" width="350"/></td>
-    <td><img src="media/pictures/used/CanvaLogo.png" width="350"></td>
+    <td><img src="media/pictures/used/GitHubLogo.png" width="300"/></td>
+    <td><img src="media/pictures/used/TeamsLogo.png" width="300"></td>
+    <td><img src="media/pictures/used/WordLogo.png" width="300"/></td>
+    <td><img src="media/pictures/used/PowerPointLogo.png" width="300"/></td>
+    <td><img src="media/pictures/used/CanvaLogo.png" width="300"></td>
   </tr>
 </table>
  
