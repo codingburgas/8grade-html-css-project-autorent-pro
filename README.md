@@ -1,31 +1,78 @@
+# AutoRent Pro - Car Rental Platform
+ <br>
+  <br>
 <p align="center">
-    <img src="media/pictures/logo/AutoRent Pro-black.png" alt="AutoRent Pro logo" width="572" height="202">
-</p>    
+  <img src="media/pictures/logo/AutoRent Pro-black.png" alt="AutoRent Pro logo" width="800">
+  <br>
+     <br>
+     <br>
+  <em>Premium car rental solution for modern travelers</em>
+</p>
 
-## AutoRent Pro
+## 🌟 Project Overview
+AutoRent Pro is a responsive website designed to streamline the car rental process. Our platform offers:
 
-This is a web-based application for a car rental service. The platform allows users to browse available cars, book rentals, and manage their reservations. The project was build as part of a school assignment to demonstrate web development skills.
+- Simple interface for booking funds
+- Mobile-friendly design
+- Flexible rental options (daily/weekly/monthly)
+- Transparent pricing with no hidden fees
 
-## Project Overview
+### 🌐 Key Pages
+1. **Hom epage** - Information about us
+2. **Cars page** - All our cars
+3. **Locations page** - А map with all our offices and a direct link to their location
+4. **Contact Page** - A page with information about our head office and information about the creators of the site
+5. **Reviews** - Our website feedback page
 
-The goal of this project is to simulate a real-world car rental platform with a focus on clean interface, user-friendly functionality, and essential features like searching and booking.
+## Used Programs
 
-## Features
+### 📈 Markup languages:
+<p align="left">
+  <img src="media/pictures/used/htmlLogo.png" width="84" title="HTML5">
+  <img src="media/pictures/used/cssLogo.png" width="80" title="CSS3">
+  <img src="media/pictures/used/VisualStudioCodeLogo.png" width="80" title="VS Code">
+  <img src="media/pictures/used/GitHubLogo.png" width="80" title="GitHub">
+</p>
 
-- Pick rental dates and duration
-- View detailed car information
+### 📈 Markup languages:
+<p align="left">
+  <img src="media/pictures/used/htmlLogo.png" width="84" title="HTML5">
+  <img src="media/pictures/used/cssLogo.png" width="80" title="CSS3">
+  <img src="media/pictures/used/VisualStudioCodeLogo.png" width="80" title="VS Code">
+  <img src="media/pictures/used/GitHubLogo.png" width="80" title="GitHub">
+</p>
 
-## Used Technologies
-<table>
-  <tr>
-    <td><img src="media/pictures/used/VisualStudioCodeLogo.png" width="300"/></td>
-    <td><img src="media/pictures/used/htmlLogo.png" width="300"/></td>
-    <td><img src="media/pictures/used/cssLogo.png" width="300"></td>
-    <td><img src="media/pictures/used/GitHubLogo.png" width="300"/></td>
-    <td><img src="media/pictures/used/TeamsLogo.png" width="300"></td>
-    <td><img src="media/pictures/used/WordLogo.png" width="300"/></td>
-    <td><img src="media/pictures/used/PowerPointLogo.png" width="300"/></td>
-    <td><img src="media/pictures/used/CanvaLogo.png" width="300"></td>
-  </tr>
-</table>
- 
+### 💬📝 Communication & Documentation
+<p align="left">
+  <img src="media/pictures/used/TeamsLogo.png" width="80" title="Microsoft Teams">
+  <img src="media/pictures/used/WordLogo.png" width="80" title="Microsoft Word">
+  <img src="media/pictures/used/PowerPointLogo.png" width="80" title="PowerPoint">
+</p>
+
+### 🎨 Design
+<p align="left">
+  <img src="media/pictures/used/CanvaLogo.png" width="80" title="Canva">
+    <img src="media/pictures/used/coolors.logo.png" width="80" title="coolors">
+</p>
+
+## 👨🏻‍💻 Team Members
+
+| Name          | Class | Role               |
+|---------------|-------|--------------------|
+| [Teodor Spasov Todorov]   (https://github.com/TSTodorov24)|8A| Scrum trainer |
+| [Selin Aydanova Vatansever] (https://github.com/SAVatansever24) |8B| Designer    |
+| [Gabriela Mitkova Miteva] (https://github.com/gmmiteva24)|8V|  CSS Developer   |
+| [Alexander Ivaylov Petrov] (https://github.com/AIPetrov24)  |8G| HTML Developer  |
+
+## 📈 Project Milestones
+- **Phase 1**:  Creating HTML files
+- **Phase 2**:  Adding images
+- **Phase 3**:  Styling with CSS
+- **Phase 4**:  Creating documentation
+
+
+---
+<p align="center">
+  Developed by Auto Rent Pro <br>
+   2025
+</p>
