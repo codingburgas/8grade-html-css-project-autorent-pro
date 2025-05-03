@@ -17,7 +17,7 @@ AutoRent Pro is a responsive website designed to streamline the car rental proce
 - Transparent pricing with no hidden fees
 
 ### 🌐 Key Pages
-1. **Hom epage** - Information about us
+1. **Home page** - Information about us
 2. **Cars page** - All our cars
 3. **Locations page** - А map with all our offices and a direct link to their location
 4. **Contact Page** - A page with information about our head office and information about the creators of the site
@@ -58,8 +58,8 @@ AutoRent Pro is a responsive website designed to streamline the car rental proce
 |---------------|-------|--------------------|
 | [ Teodor Spasov Todorov ](https://github.com/TSTodorov24)|8A| Scrum trainer |
 | [Selin Aydanova Vatansever](https://github.com/SAVatansever24) |8B| Designer    |
-| [Gabriela Mitkova Miteva](https://github.com/gmmiteva24)|8V|  CSS Developer   |
-| [Alexander Ivaylov Petrov](https://github.com/AIPetrov24)  |8G| HTML Developer  |
+| [Gabriela Mitkova Miteva](https://github.com/gmmiteva24)|8V|  HTML Developer   |
+| [Alexander Ivaylov Petrov](https://github.com/AIPetrov24)  |8G| CSS Developer  |
 
 
 ## 📈 Project Milestones
