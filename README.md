@@ -4,9 +4,8 @@
 <p align="center">
   <img src="media/pictures/logo/AutoRent Pro-black.png" alt="AutoRent Pro logo" width="800">
   <br>
-     <br>
-     <br>
-  <em>Premium car rental solution for modern travelers</em>
+  <br>
+  <br>
 </p>
 
 ## 🌟 Project Overview
@@ -26,18 +25,14 @@ AutoRent Pro is a responsive website designed to streamline the car rental proce
 
 ## Used Programs
 
-### 📈 Markup languages:
+### 📈 Markup languages
 <p align="left">
   <img src="media/pictures/used/htmlLogo.png" width="84" title="HTML5">
   <img src="media/pictures/used/cssLogo.png" width="80" title="CSS3">
-  <img src="media/pictures/used/VisualStudioCodeLogo.png" width="80" title="VS Code">
-  <img src="media/pictures/used/GitHubLogo.png" width="80" title="GitHub">
 </p>
 
-### 📈 Markup languages:
+### </> Code editors
 <p align="left">
-  <img src="media/pictures/used/htmlLogo.png" width="84" title="HTML5">
-  <img src="media/pictures/used/cssLogo.png" width="80" title="CSS3">
   <img src="media/pictures/used/VisualStudioCodeLogo.png" width="80" title="VS Code">
   <img src="media/pictures/used/GitHubLogo.png" width="80" title="GitHub">
 </p>
@@ -51,18 +46,21 @@ AutoRent Pro is a responsive website designed to streamline the car rental proce
 
 ### 🎨 Design
 <p align="left">
+ 
+  <img src="media/pictures/used/photoshop.logo.png" width="80" title="photoshop">
   <img src="media/pictures/used/CanvaLogo.png" width="80" title="Canva">
-    <img src="media/pictures/used/coolors.logo.png" width="80" title="coolors">
+  <img src="media/pictures/used/coolors.logo.png" width="80" title="coolors">
 </p>
 
 ## 👨🏻‍💻 Team Members
 
 | Name          | Class | Role               |
 |---------------|-------|--------------------|
-| [Teodor Spasov Todorov]   (https://github.com/TSTodorov24)|8A| Scrum trainer |
-| [Selin Aydanova Vatansever] (https://github.com/SAVatansever24) |8B| Designer    |
-| [Gabriela Mitkova Miteva] (https://github.com/gmmiteva24)|8V|  CSS Developer   |
-| [Alexander Ivaylov Petrov] (https://github.com/AIPetrov24)  |8G| HTML Developer  |
+| [ Teodor Spasov Todorov ](https://github.com/TSTodorov24)|8A| Scrum trainer |
+| [Selin Aydanova Vatansever](https://github.com/SAVatansever24) |8B| Designer    |
+| [Gabriela Mitkova Miteva](https://github.com/gmmiteva24)|8V|  CSS Developer   |
+| [Alexander Ivaylov Petrov](https://github.com/AIPetrov24)  |8G| HTML Developer  |
+
 
 ## 📈 Project Milestones
 - **Phase 1**:  Creating HTML files
