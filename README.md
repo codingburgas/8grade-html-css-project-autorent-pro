@@ -16,7 +16,8 @@ AutoRent Pro is a responsive website designed to streamline the car rental proce
 - Flexible rental options (daily/weekly/monthly)
 - Transparent pricing with no hidden fees
 
-### 🌐 Key Pages
+## 🌐 Key Pages
+
 1. **Home page** - Information about us
 2. **Cars page** - All our cars
 3. **Locations page** - А map with all our offices and a direct link to their location
