@@ -53,6 +53,14 @@ AutoRent Pro is a responsive website designed to streamline the car rental proce
   <img src="media/pictures/used/coolors.logo.png" width="80" title="coolors">
 </p>
 
+## 📂 Documentation & Presentation
+
+### 📋 Documentation
+[Documentation](/docs/technical_specs.pdf) <!-- Линк към PDF файл -->
+### 🎤 Presentation
+[Presentation](/docs/technical_specs.pdf) <!-- Линк към PDF файл -->
+
+
 ## 👨🏻‍💻 Team Members
 
 | Name          | Class | Role               |
