@@ -56,9 +56,10 @@ AutoRent Pro is a responsive website designed to streamline the car rental proce
 ## 📂 Documentation & Presentation
 
 ### 📋 Documentation
-[Documentation](/docs/technical_specs.pdf) <!-- Линк към PDF файл -->
+[Documentation](https://codingburgas-my.sharepoint.com/:w:/g/personal/tstodorov24_codingburgas_bg/EbAx8Tr9iH9FmV2g6aXX5oYBXLSAXqzGwI7MyBN5J9jOng?e=MvqDwD)
 ### 🎤 Presentation
-[Presentation](/docs/technical_specs.pdf) <!-- Линк към PDF файл -->
+[Presentation](https://codingburgas-my.sharepoint.com/:p:/g/personal/gmmiteva24_codingburgas_bg/EYBZzQgWCyJPjo1Z_hpwsVoBz2693OBaTkBr7sWCV85xoQ?e=Lkj62x)
+
 
 
 ## 👨🏻‍💻 Team Members
