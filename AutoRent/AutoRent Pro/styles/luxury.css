@@ -1,0 +1,274 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e8f0fe;
+    margin: 0;
+    padding: 0;
+    color: #202124;
+}
+
+/*Car details*/
+
+.car-details-container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+.performance-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #e40046;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+/*Back button*/
+
+.back-button {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #1a73e8;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #0d47a1;
+}
+
+h1 {
+    color: #0d47a1;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #4285f4;
+    padding-bottom: 10px;
+}
+
+h1 span {
+    color: #1a73e8;
+}
+
+.main-car-image {
+    width: 100%;
+    max-height: 450px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 2px solid #1a73e8;
+}
+
+.car-specs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.specs-column h2 {
+    color: #0d47a1;
+    border-bottom: 2px solid #4285f4;
+    padding-bottom: 5px;
+    margin-top: 0;
+}
+
+.specs-column ul {
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+.specs-column li {
+    margin-bottom: 10px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.specs-column li:before {
+    content: "•";
+    color: #e40046;
+    font-size: 1.5em;
+    position: absolute;
+    left: 0;
+    top: -5px;
+}
+
+/*Price*/
+
+.price-section {
+    margin: 30px 0;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+/*Dayly price*/
+
+.daily-price {
+    font-weight: bold;
+    color: #1a73e8;
+    font-size: 1.8em;
+}
+
+/*Weekly and monthly price*/
+
+.weekly-price, .monthly-price {
+    color: #5f6368;
+}
+
+.performance-features {
+    display: flex;
+    gap: 30px;
+    margin: 25px 0;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+
+.feature img {
+    width: 24px;
+    height: 24px;
+}
+
+/*Book button*/
+
+.book-now-button {
+    display: block;
+    width: 96.8%;
+    padding: 15px;
+    background-color: #1a73e8;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.book-now-button:hover {
+    background-color: #0d47a1;
+}
+
+/*Mobile friendly*/
+
+@media (max-width: 768px) {
+    .car-specs {
+        grid-template-columns: 1fr;
+    }
+    
+    .performance-features {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .price-section {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 480px) {
+    .car-details-container {
+        padding: 15px;
+    }
+    
+    h1 {
+        font-size: 1.5em;
+        padding-right: 80px;
+    }
+    
+    .performance-badge {
+        top: 15px;
+        right: 15px;
+        font-size: 0.8em;
+    }
+    
+    .main-car-image {
+        max-height: 250px;
+    }
+}
+
+/*Header*/
+
+header {
+    background: #6798c9;
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+nav a:hover, nav a.active {
+    background: #84b6e8;
+}
+
+/*Footer*/
+
+footer {
+    background: #193554;
+    color: #ffffff;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+/*Footer links*/
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #84b6e8;
+}
+
+/*Copyright*/
+
+.copyright {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}

@@ -1,0 +1,235 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/*Header*/
+
+header {
+    background-color: #6798c9;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/*Header content*/
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/*Navigation*/
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #84b6e8;
+    transform: translateY(-2px);
+}
+
+nav a.active {
+    background-color: #84b6e8;
+}
+
+/*Locations*/
+
+.locations-container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+h1 {
+    color: #193554;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+}
+
+.subtitle {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+/*Map*/
+
+.country-map {
+    text-align: center;
+    margin: 40px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+/*Map image*/
+
+.country-map img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/*Map caption*/
+
+.map-caption {
+    margin-top: 15px;
+    font-style: italic;
+    color: #666;
+}
+
+/*Locations*/
+
+.locations-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 25px;
+    margin: 40px 0;
+}
+
+/*Locations card*/
+
+.location-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.location-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.location-card h2 {
+    color: #193554;
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #84b6e8;
+}
+
+.location-card p {
+    margin: 10px 0;
+    color: #555;
+}
+
+/*Map link*/
+
+.map-link {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #84b6e8;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.map-link:hover {
+    background-color: #6798c9;
+    transform: translateY(-2px);
+}
+
+/*Footer*/
+
+footer {
+    background-color: #193554;
+    color: white;
+    padding: 30px 0;
+    margin-top: 50px;
+}
+
+/*Footer contemt*/
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+/*Footer links*/
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #84b6e8;
+}
+
+/*Copyright*/
+
+.copyright {
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+/*Mobile friendly*/
+
+@media (max-width: 768px) {
+    .locations-list {
+        grid-template-columns: 1fr;
+    }
+    
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    nav a {
+        width: 100%;
+        text-align: center;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .location-card {
+        padding: 20px;
+    }
+    
+    .map-link {
+        width: 100%;
+        text-align: center;
+    }
+}

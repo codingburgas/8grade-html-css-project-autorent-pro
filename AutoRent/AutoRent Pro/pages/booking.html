@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../media/pictures/favicon/favicon.png" type="image/x-icon">
+    <title>AutoRent Pro - Booking</title>
+    <link rel="stylesheet" href="../styles/booking.css">
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <div class="header-content">
+            <nav>
+                <a href="../index.html">Home</a>
+                <a href="cars.html">Cars</a>
+                <a href="locations.html">Locations</a>
+                <a href="contact.html">Contact</a>
+                <a href="reviews.html">Reviews</a>
+            </nav>
+        </div>
+    </header>
+    <!--Booking container-->
+    <main>
+        <div class="booking-container">
+            <h1>Car Rental Booking</h1>
+            <form class="booking-form">
+                <div class="form-group">
+                    <label for="car-type">Car Type:</label>
+                    <select id="car-type" required>
+                        <option value="">Select a car</option>
+                        <option value="economy">Economy car</option>
+                        <option value="estate">Station wagon </option>
+                        <option value="family">Family car</option>
+                        <option value="jeep">Jeep</option>
+                        <option value="luxury">Luxury car</option>
+                    </select>
+                </div>
+                <!--Dates-->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="pickup-date">Pick-up Date:</label>
+                        <input type="date" id="pickup-date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="return-date">Return Date:</label>
+                        <input type="date" id="return-date" required>
+                    </div>
+                </div>
+                <!--Locations pick up-->
+                <div class="form-group">
+                    <label for="location">Choose a location to pick up the car:</label>
+                    <select id="location" required>
+                        <option value="">Select location</option>
+                        <option value="sofia">Sofia Center</option>
+                        <option value="sofia">Sofia Mladost</option>
+                        <option value="plovdiv">Plovdiv</option>
+                        <option value="varna">Varna</option>
+                        <option value="burgas">Burgas</option>
+                        <option value="ruse">Ruse</option>
+                        <option value="stara zagora">Stara Zagora</option>
+                        <option value="peven">Peven</option>
+                        <option value="veliko tarnovo">Veliko Tarnovo</option>
+                        <option value="blagoevgrad">Blagoevgrad</option>
+                    </select>
+                </div>
+                <!--Locations return-->
+                <div class="form-group">
+                    <label for="location">Choose a location to return the car:</label>
+                    <select id="location" required>
+                        <option value="">Select location</option>
+                        <option value="sofia">Sofia Center</option>
+                        <option value="sofia">Sofia Mladost</option>
+                        <option value="plovdiv">Plovdiv</option>
+                        <option value="varna">Varna</option>
+                        <option value="burgas">Burgas</option>
+                        <option value="ruse">Ruse</option>
+                        <option value="stara zagora">Stara Zagora</option>
+                        <option value="peven">Peven</option>
+                        <option value="veliko tarnovo">Veliko Tarnovo</option>
+                        <option value="blagoevgrad">Blagoevgrad</option>
+                    </select>
+                <!--Name-->
+                </div>
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" required>
+                </div>
+                <!--Email-->
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+                </div>
+                <!--Phone number-->
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" required>
+                </div>
+                <!--Button-->
+                <button type="submit" class="submit-btn">Book Now</button>
+            </form>
+        </div>
+    </main>
+    <!--Footer-->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="https://www.instagram.com" target="_blank">Instagram</a>
+                <a href="https://www.facebook.com" target="_blank">Facebook</a>
+                <a href="#">Terms</a>
+                <a href="#">Privacy</a>
+            </div>
+            <p class="copyright">&copy; 2025 AutoRent Pro. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

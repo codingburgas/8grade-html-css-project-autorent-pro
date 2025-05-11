@@ -1,0 +1,240 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+/*Header*/
+header {
+    background-color: #6798c9;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+/*Nav bar*/
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+/*Nav bar-a*/
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #84b6e8;
+}
+
+nav a.active {
+    background-color: #84b6e8;
+}
+
+.contact-container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+h1 {
+    color: #193554;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+/*Contact info*/
+.contact-info {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+/*Contact card*/
+.contact-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contact-card h2 {
+    color: #193554;
+    margin-top: 0;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #84b6e8;
+    width: 100%;
+}
+
+.contact-card p {
+    margin: 0;
+    color: #555;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.contact-card i {
+    color: #84b6e8;
+    width: 25px;
+    margin-right: 10px;
+}
+
+.team-section {
+    margin-top: 50px;
+}
+
+.team-section h2 {
+    color: #193554;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+.team-members {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.team-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.team-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.member-photo {
+    height: 250px;
+    overflow: hidden;
+}
+
+.member-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.team-card:hover .member-photo img {
+    transform: scale(1.05);
+}
+
+.member-info {
+    padding: 20px;
+}
+
+.member-info h3 {
+    color: #193554;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.member-info p {
+    margin: 8px 0;
+    color: #555;
+}
+
+.member-info strong {
+    color: #193554;
+}
+/*Footer*/
+footer {
+    background-color: #193554;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+/*Footer links*/
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+/*Footer links a*/
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+/*Copyright*/
+.copyright {
+    font-size: 0.9rem;
+    color: #ccc;
+    margin: 0;
+}
+/*Mobile friendly*/
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    nav a {
+        width: 100%;
+        text-align: center;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+    .team-members {
+        grid-template-columns: 1fr;
+    }
+    
+    .member-photo {
+        height: 200px;
+    }
+
+    .contact-card {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .contact-card p {
+        white-space: normal;
+    }
+}
+/*Mobile friendly*/
+@media (max-width: 480px) {
+    .contact-card {
+        padding: 20px;
+    }
+    
+    .contact-card p {
+        font-size: 1rem;
+    }
+    
+    .member-info {
+        padding: 15px;
+    }
+    
+    .footer-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
